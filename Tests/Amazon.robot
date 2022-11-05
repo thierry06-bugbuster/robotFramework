@@ -1,12 +1,11 @@
 *** Settings ***
 Documentation  This is some basic info about the whole suite
-Library  SeleniumLibrary
+
 Library     SeleniumLibrary
 Resource    ../Resources/Variables/variables.robot
 # Copy/paste the line below into Terminal to execute:
 # robot -d results tests/amazon.robot
 
-Library     SeleniumLibrary
 *** Variables ***
 
 
